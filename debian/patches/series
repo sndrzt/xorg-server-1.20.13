@@ -1,0 +1,66 @@
+## Patches with a number < 100 are applied in debian.
+## Ubuntu patches start with 100.
+001_fedora_extramodes.patch
+02_kbsd-input-devd.diff
+03_static-nettle.diff
+04_compiler_h_inb_outb_mips.diff
+05_Revert-Unload-submodules.diff
+06_use-intel-only-on-pre-gen4.diff
+07_use-modesetting-driver-by-default-on-GeForce.diff
+
+## Ubuntu patches, not upstreamable
+168_glibc_trace_to_stderr.patch
+226_fall_back_to_autoconfiguration.patch
+300-mi-sprite-SaveUnderCursor2.patch
+
+## send upstream
+xfree86-no-xv-for-gpuscreens.patch
+no-nv.patch
+
+## upstream patches
+
+# hybrid graphics fixes
+228_autobind_gpu.patch
+xf86-ignore-conflicting-rr-caps.patch
+
+xi2-resize-touch.patch
+fix-default-permissions.patch
+reset-transforms-in-closescreen.diff
+dri2-use-va-gl-for-intel.diff
+dri2-set-fallback-names-amd-intel.diff
+randr-auto-bind-of-gpu-is-a-config-change.diff
+fix-gtf-detection-for-edid-14.diff
+CVE-2021-4008.patch
+CVE-2021-4009.patch
+CVE-2021-4010.patch
+CVE-2021-4011.patch
+CVE-2022-2319-pre1.patch
+CVE-2022-2319.patch
+CVE-2022-2320.patch
+CVE-2022-3550.patch
+CVE-2022-3551.patch
+CVE-2022-46340.patch
+CVE-2022-46341.patch
+CVE-2022-46342.patch
+CVE-2022-46343.patch
+CVE-2022-46344-1.patch
+CVE-2022-46344-2.patch
+CVE-2022-4283.patch
+CVE-2023-0494.patch
+lp2007746-fix-pdev-null-deref.patch
+CVE-2023-1393.patch
+CVE-2023-5367.patch
+CVE-2023-5380.patch
+CVE-2023-6377.patch
+CVE-2023-6478.patch
+CVE-2023-6816.patch
+CVE-2024-0229-1.patch
+CVE-2024-0229-2.patch
+CVE-2024-0229-3.patch
+CVE-2024-0229-4.patch
+CVE-2024-0408.patch
+CVE-2024-0409.patch
+CVE-2024-21885.patch
+CVE-2024-21886-1.patch
+CVE-2024-21886-2.patch
+CVE-2024-21886-3.patch
